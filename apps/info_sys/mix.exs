@@ -19,7 +19,7 @@ defmodule InfoSys.Mixfile do
   def application do
     [
       extra_applications: [:logger],
-      mod: {InfoSys.Application, []}
+      mod: {InfoSys.Application, []},
     ]
   end
 
